@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:'Roobert',sans-serif;
+        }
+        figcaption{
+            font-size: 37px;
+        }
+        img{
+            border-radius: 17px;
+            margin-bottom: 32px;
+        }
+        hr{
+            opacity: 50%;
+        }
+        .price{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .content{
+            display:flex;
+            justify-content: center;
+            box-shadow: 1px 5px 10px black;
+            border-radius: 17px;
+            cursor:pointer;
+            width: 630px;
+        }
+        #currentprice{
+            color:blue;
+        }
+        #discount{
+            background-color: rgb(165, 110, 216);
+            border-radius: 17px;
+            padding: 4px;
+            font-size: 80%;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <figure>
+            <img src="https://dz8fbjd9gwp2s.cloudfront.net/courses/6375d571e4b01075b1507cbf/6375d571e4b01075b1507cbf_scaled_cover.jpg?v=1" alt="card">
+            <div class="caption">
+            <figcaption><b>Web development Master <br>Course @Dot Batch</b><hr></figcaption>
+            </div>
+            <div class="price">
+                <span id="currentprice">₹4500</span>
+                <span id="actualprice"><del>₹6999</del></span>
+                <span id="discount"> 42% off </span>
+            </div>
+        </figure>
+    </div>
+</body>
+</html>
