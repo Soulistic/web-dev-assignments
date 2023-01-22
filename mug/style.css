@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: peachpuff;;
+    font-family: 'Fraunces', serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Mug-img{
+    height: 50vh;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.desc{
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    width: 50vh;
+    height: 50vh;
+    background-color: rgb(230, 210, 210);
+    padding: 30px;
+}
+h4{
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: grey;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 1.9rem;
+    margin-top: 20px;
+    font-weight:bold;
+    width: 250px;
+}
+p{
+    color: grey;
+    margin-top: 18px;
+    font-weight: 600;
+    width: 50vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.price{
+    margin-top: 20px;
+    color: grey;
+    font-size: 18px;
+}
+.Amt{
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+    font-weight: 900;
+    margin-right: 10px;
+}
+.btn{
+    margin-top: 25px;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+}
+.btn:hover {
+    background-color: hsl(158, 35%, 21%);
+}
+
