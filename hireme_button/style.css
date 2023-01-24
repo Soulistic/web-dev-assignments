@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: orangered;
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 10px 1px black;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+.box::before{
+    content: "";
+    position: absolute;
+    background-color: #1f1f1f;
+    top: 0;
+    left : 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+}
+.box:hover::before{
+    transform: scaleX(1);
+}
+.box:hover{
+    color:white;
+}
