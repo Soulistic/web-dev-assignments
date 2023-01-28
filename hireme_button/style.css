@@ -15,7 +15,7 @@
     width: fit-content;
     color: white;
     padding: 0.8rem 2.3rem;
-    box-shadow: 5px 5px 10px 1px black;
+    box-shadow: 5px 5px 10px 0px black;
     font-size: large;
     cursor: pointer;
     transition: all 0.5s;
